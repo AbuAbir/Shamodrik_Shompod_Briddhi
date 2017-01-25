@@ -1,0 +1,224 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.asiff.regsys.Marketing">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+       >
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Dhaka"
+        android:id="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <EditText
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextIlish"
+        android:hint="                                          ইলিশ"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/scrollView"
+        android:layout_toStartOf="@+id/scrollView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextRui"
+
+        android:hint="                                          রুই"
+
+        android:layout_below="@+id/editTextIlish"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editTextIlish"
+        android:layout_alignEnd="@+id/editTextIlish" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextKtla"
+        android:hint="                                         কাতলা"
+        android:layout_below="@+id/editTextRui"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editTextRui"
+        android:layout_alignEnd="@+id/editTextRui" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextPangash"
+        android:hint="                                         পাঙ্গাশ"
+
+        android:layout_below="@+id/editTextKtla"
+        android:layout_alignRight="@+id/editTextKtla"
+        android:layout_alignEnd="@+id/editTextKtla"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Khulna"
+            android:id="@+id/KtextView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+        <EditText
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/KeditTextIlish"
+            android:hint="                                          ইলিশ"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/scrollView"
+            android:layout_toStartOf="@+id/scrollView" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/KeditTextRui"
+
+            android:hint="                                          রুই"
+
+            android:layout_below="@+id/editTextIlish"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/editTextIlish"
+            android:layout_alignEnd="@+id/editTextIlish" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/KeditTextKtla"
+            android:hint="                                         কাতলা"
+            android:layout_below="@+id/editTextRui"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/editTextRui"
+            android:layout_alignEnd="@+id/editTextRui" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/KeditTextPangash"
+            android:hint="                                         পাঙ্গাশ"
+
+            android:layout_below="@+id/editTextKtla"
+            android:layout_alignRight="@+id/editTextKtla"
+            android:layout_alignEnd="@+id/editTextKtla"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Chittagong"
+            android:id="@+id/CtextView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+        <EditText
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/CeditTextIlish"
+            android:hint="                                          ইলিশ"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/scrollView"
+            android:layout_toStartOf="@+id/scrollView" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CeditTextRui"
+
+            android:hint="                                          রুই"
+
+            android:layout_below="@+id/editTextIlish"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/editTextIlish"
+            android:layout_alignEnd="@+id/editTextIlish" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CeditTextKtla"
+            android:hint="                                         কাতলা"
+            android:layout_below="@+id/editTextRui"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/editTextRui"
+            android:layout_alignEnd="@+id/editTextRui" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CeditTextPangash"
+            android:hint="                                         পাঙ্গাশ"
+
+            android:layout_below="@+id/editTextKtla"
+            android:layout_alignRight="@+id/editTextKtla"
+            android:layout_alignEnd="@+id/editTextKtla"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <Button
+            android:layout_marginTop="7dp"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="আপডেট করুন "
+            android:id="@+id/buttonUpdate"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/marinemain"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:id="@+id/linearLayout2"
+
+        android:layout_marginTop="290dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="নিবন্ধন করুন "
+            android:onClick="Registration"
+            android:id="@+id/buttonReg"
+            android:layout_weight="0.08"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="লগ ইন করুন "
+            android:id="@+id/buttonLog"
+            android:onClick="Login"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.08" />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="অভিযোগ করুন "
+            android:id="@+id/buttonIMAGE"
+            android:onClick="IMG"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.08"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="বর্তমান বাজার মূল্য "
+            android:id="@+id/buttonCP"
+            android:onClick="CurrentP"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.08" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asiff.regsys" >
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="androdid.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="androi.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mas"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <service android:name=".MyAlarmService" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".AfterLogin"
+            android:label="@string/title_activity_after_login" >
+        </activity>
+        <activity
+            android:name=".Marketing"
+            android:label="@string/title_activity_marketing" >
+        </activity>
+        <activity
+            android:name=".ParseJson"
+            android:label="@string/title_activity_parse_json" >
+        </activity>
+        <activity
+            android:name=".Admin"
+            android:label="@string/title_activity_admin" >
+        </activity>
+        <activity
+            android:name=".LoanEligibility"
+            android:label="@string/title_activity_loan_eligibility" >
+        </activity>
+        <activity
+            android:name=".AdminLoan"
+            android:label="@string/title_activity_admin_loan" >
+        </activity>
+        <activity
+            android:name=".AndroidUploadImage"
+            android:label="@string/title_activity_android_upload_image" >
+        </activity>
+        <activity
+            android:name=".Image"
+            android:label="@string/title_activity_image" >
+        </activity>
+        <activity
+            android:name=".Manual"
+            android:label="@string/title_activity_manual" >
+        </activity>
+        <activity
+            android:name=".InformationShow"
+            android:label="@string/title_activity_information_show" >
+        </activity>
+    </application>
+
+</manifest>

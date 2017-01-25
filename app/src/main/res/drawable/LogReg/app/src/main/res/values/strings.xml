@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LogReg</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_reg">Reg</string>
+    <string name="title_activity_registered">Registered</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_passwordreset">Passwordreset</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+</resources>
